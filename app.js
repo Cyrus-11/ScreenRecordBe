@@ -1,9 +1,9 @@
-import {app, PORT} from "./config/app_config.js";
-import connectDB from "./config/db_config.js";
+import {app, PORT} from "./config/appConfig.js";
+import connectDB from "./config/dbConfig.js";
 
 const main = async()=>{
 	try {
-		// connectDB();
+		connectDB();
 	    app.listen(PORT, () => {
 			console.log(`Server is up and running at port ${PORT}`);
 		});

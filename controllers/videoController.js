@@ -1,5 +1,5 @@
 
-import generateUniqueId from "../utils/generate_id.js";
+import generateUniqueId from "../utils/generateId.js";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from 'url';
