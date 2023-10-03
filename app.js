@@ -3,7 +3,7 @@ import connectDB from "./config/dbConfig.js";
 
 const main = async()=>{
 	try {
-		connectDB();
+		//connectDB();
 	    app.listen(PORT, () => {
 			console.log(`Server is up and running at port ${PORT}`);
 		});

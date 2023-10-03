@@ -64,7 +64,6 @@ export async function addData(req, res) {
     data.push(chunk);
   });
   req.on('end', () => {
-    chunkCount++;
     const directoryPath = path.join(
       currentDirectory,
       id,
