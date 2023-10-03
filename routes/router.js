@@ -4,8 +4,8 @@ const router = Router();
 
 
 router.get('/', test)
-router.post('/start/vids', startRecording)
-router.post('/add/vids/:id', addData)
-router.post('/save/vids/:id', stopRecording)
+router.post('/start/video', startRecording)
+router.post('/add/video/:id', addData)
+router.post('/save/video/:id', stopRecording)
 
 export default router;
